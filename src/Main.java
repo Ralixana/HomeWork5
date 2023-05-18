@@ -4,7 +4,6 @@ public class Main {
         System.out.println("Task 1");
 
         int clientOS = 1;
-
         int Android = 1;
         int iOS = 0;
         if (clientOS == iOS) {
@@ -16,7 +15,6 @@ public class Main {
         System.out.println("Task 2");
 
         int year = 2013;
-
         int clientDeviceYear = 2015;
 
         if (clientOS == Android && year < clientDeviceYear) {
